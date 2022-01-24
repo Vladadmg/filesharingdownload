@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<title>Directory list</title>
+<style type="text/css">
+body { font-family: tahoma, verdana, arial; font-size: 0.7em; color: black; padding-top: 8px; cursor: default; background-color: #fff; }
+#idx { border: 3px solid #fff; width: 500px; }
+#idx td.center { text-align: center; }
+#idx td { border-bottom: 1px solid #f0f0f0; }
+#idx img { margin-bottom: -2px; }
+#idx table { color: #606060; width: 100%; margin-top:3px; }
+#idx span.link { color: #0066DF; cursor: pointer; }
+#idx .rounded { padding: 10px 7px 10px 10px; -moz-border-radius:6px; }
+#idx .gray { background-color:#fafafa;border-bottom: 1px solid #e5e5e5; }
+#idx p { padding: 0px; margin: 0px;line-height:1.4em;}
+#idx p.left { float:left;width:60%;padding:3px;color:#606060;}
+#idx p.right {float:right;width:35%;text-align:right;color:#707070;padding:3px;}
+#idx strong { font-family: "Trebuchet MS", tahoma, arial; font-size: 1.2em; font-weight: bold; color: #202020; padding-bottom: 3px; margin: 0px; }
+#idx a:link    { color: #0066CC; }
+#idx a:visited { color: #003366; }
+#idx a:hover   { text-decoration: none; }
+#idx a:active  { color: #9DCC00; }
+</style>
+
+<script type="text/javascript">
+<!--
+var _c1='#fefefe'; var _c2='#fafafa'; var _ppg=25; var _cpg=1; var _files=[]; var _dirs=[]; var _tpg=null; var _tsize=0; var _sort='date'; var _sdir={'type':0,'name':0,'size':0,'date':1}; var idx=null; var tbl=null;
+function _obj(s){return document.getElementById(s);}
+function _ge(n){n=n.substr(n.lastIndexOf('.')+1);return n.toLowerCase();}
+function _nf(n,p){if(p>=0){var t=Math.pow(10,p);return Math.round(n*t)/t;}}
+function _s(v,u){if(!u)u='B';if(v>1024&&u=='B')return _s(v/1024,'KB');if(v>1024&&u=='KB')return _s(v/1024,'MB');if(v>1024&&u=='MB')return _s(v/1024,'GB');return _nf(v,1)+'&nbsp;'+u;}
+function _f(name,size,date,url,rdate){_files[_files.length]={'dir':0,'name':name,'size':size,'date':date,'type':_ge(name),'url':url,'rdate':rdate,'icon':'index.php?icon='+_ge(name)};_tsize+=size;}
+function _d(name,date,url){_dirs[_dirs.length]={'dir':1,'name':name,'date':date,'url':url,'icon':'index.php?icon=dir'};}
+function _np(){_cpg++;_tbl();}
+function _pp(){_cp
